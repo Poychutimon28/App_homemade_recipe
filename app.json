@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.chutimon.snack2c7ec01b06494a5f8f1a0247262bf89a"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2fbc4ba-da22-4a50-8acf-141dcda7c50a"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
